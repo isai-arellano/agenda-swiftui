@@ -10,6 +10,7 @@
 		4E834D94288E1B3600B33B62 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E834D93288E1B3600B33B62 /* AddContactView.swift */; };
 		4EBFC7F4288F59B1004517C2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBFC7F3288F59B1004517C2 /* FirebaseFirestore */; };
 		4EBFC7F6288F59DB004517C2 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFC7F5288F59DB004517C2 /* FirestoreManager.swift */; };
+		4EBFC7F8289033F1004517C2 /* ContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBFC7F7289033F1004517C2 /* ContactListView.swift */; };
 		4ECE50FB288DC38000F78C6F /* AgendaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE50FA288DC38000F78C6F /* AgendaApp.swift */; };
 		4ECE50FD288DC38000F78C6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ECE50FC288DC38000F78C6F /* ContentView.swift */; };
 		4ECE50FF288DC38300F78C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECE50FE288DC38300F78C6F /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		4E834D93288E1B3600B33B62 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
 		4EBFC7F5288F59DB004517C2 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		4EBFC7F7289033F1004517C2 /* ContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListView.swift; sourceTree = "<group>"; };
 		4ECE50F7288DC38000F78C6F /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECE50FA288DC38000F78C6F /* AgendaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaApp.swift; sourceTree = "<group>"; };
 		4ECE50FC288DC38000F78C6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				4ECE5100288DC38300F78C6F /* Preview Content */,
 				4EE54C89288F38EA00BB7159 /* LoginView.swift */,
 				4EBFC7F5288F59DB004517C2 /* FirestoreManager.swift */,
+				4EBFC7F7289033F1004517C2 /* ContactListView.swift */,
 			);
 			path = Agenda;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				4E834D94288E1B3600B33B62 /* AddContactView.swift in Sources */,
 				4EBFC7F6288F59DB004517C2 /* FirestoreManager.swift in Sources */,
 				4ECE50FD288DC38000F78C6F /* ContentView.swift in Sources */,
+				4EBFC7F8289033F1004517C2 /* ContactListView.swift in Sources */,
 				4EE54C8A288F38EB00BB7159 /* LoginView.swift in Sources */,
 				4ECE50FB288DC38000F78C6F /* AgendaApp.swift in Sources */,
 			);

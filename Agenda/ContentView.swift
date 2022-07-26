@@ -12,6 +12,7 @@ struct ContentView: View {
     let textColor =  Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1))
     @State var show = false
     @State var showAddContactView = false
+    @State var showListContactView = false
     
     var body: some View {
         VStack {
@@ -38,12 +39,12 @@ struct ContentView: View {
                 .buttonStyle(BlueButton())
                 
                 Button(action: {
-                    self.showAddContactView.toggle()
+                    self.showListContactView.toggle()
                 } ) {
                    Text("Ver contactos")
                 }
-                .sheet(isPresented: $showAddContactView){
-                    AddContactView()
+                .sheet(isPresented: $showListContactView){
+                    ContactListView()
                 }
                 .buttonStyle(BlueButton())
                 
